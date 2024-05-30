@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~>4.2'
+gem 'rails', '~> 4.2', '>= 4.2.1'
 
-gem 'formtastic', '2.3.0'
-gem 'formtastic-bootstrap', '3.0.0'
-gem 'momentjs-rails', '~> 2.5.0'
-gem 'bootstrap3-datetimepicker-rails', '~> 3.0.0'
-gem 'govuk_admin_template', '1.4.3'
+gem 'formtastic', '2.3.1'
+gem 'formtastic-bootstrap', '3.1.0'
+gem 'momentjs-rails', '~> 2.6.0'
+gem 'bootstrap3-datetimepicker-rails', '~> 3.0.2', '>= 3.0.2.1'
+gem 'govuk_admin_template', '1.5.0'
 gem 'mysql2', '0.3.13'
 gem 'nested_form', '0.3.1'
 gem 'octokit', '3.1.2'
@@ -18,27 +18,27 @@ gem 'protected_attributes', '1.0.8'
 gem 'friendly_id', '5.1.0'
 
 # GDS gems.
-gem 'gds-sso', '9.3.0'
+gem 'gds-sso', '9.4.0'
 gem 'plek', '1.3.1'
 
 gem 'airbrake', '3.1.15'
 gem 'aws-ses', require: 'aws/ses'
-gem 'exception_notification'
+gem 'exception_notification', '>= 4.1.0'
 
 gem 'logstasher', '0.4.8'
 
-gem 'sass-rails', '5.0.1'
+gem 'sass-rails', '5.0.2'
 gem 'therubyracer', '0.10.2'
 gem 'uglifier', '1.3.0'
 
 group :test, :development do
   gem 'better_errors', '2.1.0'
   gem 'binding_of_caller', '0.7.2'
-  gem 'capybara', '~> 2.2.0'
-  gem 'capybara-webkit', '~> 1.1.0'
+  gem 'capybara', '~> 2.3.0'
+  gem 'capybara-webkit', '~> 1.2.0'
   gem 'ci_reporter_minitest', '~> 1.0.0'
   gem 'database_cleaner', '1.4.0'
-  gem 'factory_girl_rails', '4.5.0'
+  gem 'factory_girl_rails', '4.6.0'
   gem 'minitest', '5.5.1'
   gem 'mocha', '1.1.0', require: false
   gem 'shoulda-context', '1.2.1', require: false
